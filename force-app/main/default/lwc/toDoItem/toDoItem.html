@@ -1,0 +1,9 @@
+<template>
+    <div class={Class}>
+        <span class="slds-text-heading_label">{todoName}</span>
+        <lightning-button-icon icon-name="utility:check" class="slds-p-around_medium"
+            onclick={update} title="update Todo" ></lightning-button-icon>
+            <lightning-button-icon icon-name="utility:delete" onclick={deleteHandler} title="Delete Todo">
+        </lightning-button-icon>
+    </div>
+</template>
